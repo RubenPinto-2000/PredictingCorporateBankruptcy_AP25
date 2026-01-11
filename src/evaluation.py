@@ -31,9 +31,9 @@ def evaluate_model(model, X_test, y_test, model_name):
     f1 = f1_score(y_test, y_pred, zero_division=0)
     roc_auc = roc_auc_score(y_test, y_pred_proba)
     
-    print(f"\n("=" * 80)")
+    print("=" * 80)
     print(f"{model_name} - Evaluation Results")
-    print(f"("=" * 80)")
+    print("=" * 80)
     print(f"Accuracy:  {accuracy:.4f}")
     print(f"Precision: {precision:.4f}")
     print(f"Recall:    {recall:.4f}")
