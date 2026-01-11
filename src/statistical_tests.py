@@ -70,9 +70,9 @@ def print_paired_t_test_results(results):
     """
     Print results of the paired t-test comparison to the console for visual tracking.
     """
-    print(f"\n("=" * 80)")
+    print("\n" + "=" * 80)
     print(f"PAIRED T-TEST: {results['model1_name']} vs {results['model2_name']}")
-    print(f"("=" * 80)")
+    print("\n" + "=" * 80)
     print(f"Metric: ROC-AUC (Cross-Validation with {len(results['scores1'])} folds)")
     print("-" * 80)
     print(f"{results['model1_name']}:")
