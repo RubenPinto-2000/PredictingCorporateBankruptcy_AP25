@@ -161,9 +161,9 @@ def print_mcnemar_test_results(results):
     """
     Print results of McNemar's test to the console for visual tracking.
     """
-    print(f"\n("=" * 80)")
+    print("\n" + "=" * 80)
     print(f"MCNEMAR'S TEST: {results['model1_name']} vs {results['model2_name']}")
-    print(f"("=" * 80)")
+    print("\n" + "=" * 80)
     print("Contingency Table:")
     print("-" * 80)
     print(f"                    {results['model2_name']}")
